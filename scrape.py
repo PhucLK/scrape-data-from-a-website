@@ -13,8 +13,8 @@ def run(playwright):
     page.goto(login_url)
     
     # Enter login credentials
-    page.fill('input[name="email"]', 'loanluat96@gmail.com')
-    page.fill('input[name="password"]', 'Thanhloan1996@#')
+    page.fill('input[name="email"]', 'FFFFFF@gmail.com')
+    page.fill('input[name="password"]', 'FFFF@#')
     
     # Submit the login form
     page.click('button[type="submit"]')
